@@ -1,12 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&display=swap');
 
-/* Declarando variaveis das cores e fontes*/
 :root {
     --cor-primaria: #000000;
     --cor-secundaria: #f6f6f6;
     --cor-tercearia: #22d4fd;
     --cor-hover: #272727;
-
     --fonte-primaria: 'Krona One', sans-serif;
     --fonte-secundaria: 'Montserrat', sans-serif;
 }
@@ -17,7 +15,6 @@
 }
 
 body {
-    /* height: 100vh; */
     box-sizing: border-box;
     background-color: var(--cor-primaria);
     color: var(--cor-secundaria);
@@ -85,26 +82,20 @@ body {
 
 .apresentacao__links__navegacao {
     display: flex;
-    /* alinha os elementos no canto <- (por padrão do flexbox */
     justify-content: center;
-    /* alinha os elementos no centro */
     gap: 16px;
-    /* define uma distancia entre os elementos */
     border: 2px solid var(--cor-tercearia);
-    /* 2px seria o tamanho ou grossura da borda, solid o estilo da borda */
     width: 50%;
     text-align: center;
     border-radius: 8px;
     font-size: 1.5rem;
     padding: 21.5px 0;
-    /* distancia do conteudo pra borda*/
     text-decoration: none;
     color: var(--cor-secundaria);
     font-family: var(--fonte-secundaria);
     font-weight: 600;
 }
 
-/* hover está mudando a cor de fundo dos elementos quando o mouse passa por eles */
 .apresentacao__links__link:hover {
     background-color: var(--cor-hover);
 }
