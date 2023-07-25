@@ -1,5 +1,4 @@
-# portfolio
-Projeto do curso de HTML e CSS da Alura 
+# Portfolio
 
 Para acessar o final do projeto há o link abaixo da Vercel:
 
